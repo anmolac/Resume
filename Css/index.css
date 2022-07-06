@@ -1,0 +1,64 @@
+/* Write CSS Here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #C5C3C5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+}
+.full {
+  width: 80%;
+  max-width: 1000px;
+  min-height: 100px;
+  background-color: #FFFDFF;
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 4fr 4fr;
+  font-family: system-ui;
+}
+.left {
+  position: initial;
+  background-color: #27252E;
+  padding: 10px;
+  color:white;
+  line-height: 20px;
+  font-size-adjust:ex-height 0.58;
+  
+
+}
+.right {
+  position: initial;
+  background-color: #FFFDFF;
+  padding: 20px;
+
+}
+.Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .project {
+  margin-bottom: 30px;
+	margin-left:40px;
+	border-radius:40px;
+	
+}
+img {
+  border-radius: 50%;
+}
+.h2 {
+  background-color: rgb(4, 96, 150);
+}
+
+.ft {
+	 width: 80%;
+
+  background-color: #FFFDFF;
+  display: grid;
+  grid-template-columns: 4fr 4fr;
+  font-family: system-ui;
+	
+}
+
